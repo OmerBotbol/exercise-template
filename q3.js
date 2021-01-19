@@ -9,7 +9,7 @@ function run() {
         out[0] = myArr[0];
     }
     else{
-        for(i = 0 ; i < n ; i++){
+        for(let i = 0 ; i < n ; i++){
             if (myArr[i] === undefined){
                 break;
             }
