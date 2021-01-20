@@ -5,7 +5,7 @@ function run() {
     let out =[];
     for (let i = 0; i < myArr.length; i++) {
         if(!(isNaN(myArr[i] / 0))){
-            newArr.push(myArr[i])
+            out.push(myArr[i])
     }
     }
     output.innerText = out;
